@@ -37,7 +37,7 @@ var need_acc_s = "_Need an instagram username or link!_";
 let sourav = setting.MODE == 'public' ? false : true
 let hnd = setting.HANDLERS !== 'false'? setting.HANDLERS.split("")[0]:"";
 Module({
-    pattern: 'insta ?(.*)',
+    pattern: ' ?(.*)',
     fromMe: sourav,
     desc: 'Instagram post/reel/tv/highlights downloader',
     usage: 'insta link or reply to a link',
